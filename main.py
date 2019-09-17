@@ -20,11 +20,11 @@ SmartDrive.command(SmartDrive.R)
 while test == 1:
     
     # Read input battery voltage
-    print "Batt: " + str(SmartDrive.GetBattVoltage())
+    print("Batt: " + str(SmartDrive.GetBattVoltage()))
     
     # Read encoder values 
-    print "Tach1: " + str(SmartDrive.ReadTachometerPosition(SmartDrive.SmartDrive_Motor_1))
-    print "Tach2: " + str(SmartDrive.ReadTachometerPosition(SmartDrive.SmartDrive_Motor_2))
+    print("Tach1: " + str(SmartDrive.ReadTachometerPosition(SmartDrive.SmartDrive_Motor_1)))
+    print("Tach2: " + str(SmartDrive.ReadTachometerPosition(SmartDrive.SmartDrive_Motor_2)))
     
     # Run motor for an unlimited time. Uncomment the following line to run the motor for unlimited amount of time
 #    SmartDrive.SmartDrive_Run_Unlimited(SmartDrive.SmartDrive_Motor_1, SmartDrive.SmartDrive_Direction_Forward, speed)
